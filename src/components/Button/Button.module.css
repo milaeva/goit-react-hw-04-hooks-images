@@ -1,0 +1,25 @@
+.Button {
+  grid-column: 1/5;
+  margin: 0 auto;
+  padding: 8px 16px;
+  border-radius: 2px;
+  background-color: rgb(26, 57, 235);
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  min-width: 180px;
+
+}
+
+.Button:hover,
+.Button:focus {
+  background-color: rgb(3, 26, 182);
+}

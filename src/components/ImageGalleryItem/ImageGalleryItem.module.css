@@ -1,0 +1,13 @@
+.ImageGalleryItem {
+  border-radius: 2px;
+}
+
+.ImageGalleryItemImage {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.ImageGalleryItemImage:hover {
+  cursor: zoom-in;
+}
